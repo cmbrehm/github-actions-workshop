@@ -31,7 +31,7 @@ const Home: FunctionComponent = (): ReactElement => {
 
   if (status === "error") {
     console.error("[Home.tsx]: Error in Home-Component:", error);
-    return <p>There was an Error, please try again later!</p>;
+    return <p>There was a really bad Error, please try again later!</p>;
   }
 
   return (
